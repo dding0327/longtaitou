@@ -1,0 +1,236 @@
+body{
+    background-color: #28b16d;
+    background-size:100% auto;
+    height: 36.94rem;
+    font-size: 0.265rem;
+    font-family: "微软雅黑";
+    overflow: auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.container{
+    width:7.5rem;
+    padding: 0  0.22rem;
+    margin:0 auto;
+}
+section.floor1 {
+    background: url("../images/header.png") no-repeat;
+    background-size: 100% auto;
+
+}
+
+section .title{
+    height: 1.61rem;                                /*手机端图片必须设置宽或者高*/
+    position: relative;
+    left: 50%;
+    margin-left: -2.2rem;
+    margin-top: 5.74rem;
+}
+section p{
+    padding-top: 0.26rem;
+    font-size: 0.26rem;
+    line-height: 0.36rem;
+    color: #05483e;
+}
+section p span{
+    color: #ffe800;
+}
+section header{
+    text-align: center;
+}
+/*section header img{*/
+    /*width: 4.62rem;*/
+/*}*/
+.floor1 .content{
+    height: 6.56rem;
+    background: url("../images/floor1-content-box.png") no-repeat;
+    background-size: 100% auto;
+    margin-top: 0.22rem;
+    margin-bottom: 0.22rem;
+    /*margin: 0 auto;*/
+    padding: 0.28rem;
+
+}
+.floor1 .content-spot{
+    position: absolute;
+    height: 6.44rem;
+    margin-top: 0.28rem;
+}
+.content .box{
+    float: left;
+    width: 2.04rem;
+    height: 1.28rem;
+    border-radius: 0.14rem;
+    background: #ecffda;
+    box-shadow:0 0.1rem 0 #93e8a4;
+    margin: 0.09rem 0.05rem;
+    padding-top: 0.14rem;
+}
+.content .box5,.content .box8{
+    background: #ffe800;
+    box-shadow:0 0.1rem 0 #f79b02;
+}
+.content .box{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.content .box img{
+    height: 0.7rem;
+}
+.content .box p{
+    text-align: center;
+    font-size: 0.263rem;
+    padding-top: 0;
+}
+.content .box::before {
+content: "节日专属";
+text-align: center;
+width: 1.9rem;
+line-height: 0.34rem;
+font-size: 0.19rem;
+position: absolute;
+left: 0.76rem;
+background: #04ab57;
+color: #ffe800;
+transform: rotate(45deg);
+z-index: 1;
+}
+.content .box1::before ,.content .box2::before,.content .box3::before,.content .box10::before,.content .box12::before {
+    content: "节日专属";
+}
+
+.content .box5::before {
+    content: "888元";
+}
+.content .box8::before {
+    content: "88元";
+}
+.content .box11::before {
+    content: "非卖品";
+}
+.content .box4::before ,.content .box6::before,.content .box7::before,.content .box7::before{
+    display: none;
+}
+.draw input{
+    width: 3.35rem;
+    height: 0.82rem;
+    text-align: center;
+    border-radius: 0.16rem;
+}
+.draw .button-1{
+    background: url("../images/draw-button1.png") no-repeat;
+    background-size: 100%;
+}
+.draw .button-2{
+    background: url("../images/draw-button2.png") no-repeat;                       /*背景图片有点问题*/
+    background-size: 100%;
+    margin-left: 0.24rem;
+}
+article{
+    padding-top: 0.26rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+}
+article a{
+    text-decoration: underline;
+    color: #094c43;
+    padding-right: 0.55rem;
+}
+article .my-coin{
+    color: #ffe800;
+}
+article .my-coin-icon img{
+    height: 0.33rem;
+
+}
+.list{
+    height: 7.66rem;
+    border-radius: 0.08rem;
+    background: #dffac5;
+    box-shadow: 0.06rem 0.08rem 0 #067b2f;
+}
+.list h3{
+    display: block;
+    font-size: 0.4rem;
+    height: 0.83rem;
+    line-height: 0.83rem;
+    text-align: center;
+    background: #ffe800;
+    border-bottom: 2px solid #a2ecab;
+    border-top-left-radius: 0.08rem;
+    border-top-right-radius: 0.08rem;
+}
+.list .list-box{
+    padding-top: 0.08rem;
+    padding-left: 0.35rem;
+}
+.list ul li{
+    font-size: 0.28rem;
+    height: 0.58rem;
+    line-height: 0.58rem;
+
+}
+.list .name{
+    display: inline-block;
+    width: 2.23rem;
+    text-align: left;
+}
+.list .cd{
+    display: inline-block;
+    width: 2rem;
+    text-align: left;
+}
+.list img{
+    vertical-align: middle;
+    width:0.37rem ;                                 /*图像都变大了，手机端必须这么设置*/
+    margin-right: 0.22rem;
+}
+.floor2{
+    margin-top: 0.5rem;
+}
+.floor2-box{
+    background: url("../images/floor3-box.png") no-repeat;
+    background-size: 100% auto;
+    padding-top: 0.36rem;
+    padding-bottom: 0.7rem;
+    /*text-align: left;*/
+    margin-left: -0.1rem;
+    margin-right: -0.1rem;
+}
+.floor2-box img{
+    width: 1.26rem;
+    margin: 0.4rem 0.2rem 0.3rem;
+
+}
+.floor2-box h6{
+    font-size: 0.28rem;
+    font-weight: 900;
+    padding-top: 0.3rem;
+}
+.floor2-box p{
+    font-size: 0.26rem;
+    font-weight: 500;
+    padding: 0.2rem;
+    color: #0b6f72;
+}
+.floor2-box p b{
+    font-weight: 900;
+}
+.floor2-box p span{
+    color: #cf2732;
+}
+footer{
+    background: url("../images/footer-bg.png") no-repeat;
+    background-size: 100% auto;
+    width: 7.5rem;
+    height: 3rem;
+    text-align: center;
+}
+footer img{
+    margin-top: 1.2rem;
+}
